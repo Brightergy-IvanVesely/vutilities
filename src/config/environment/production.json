@@ -1,0 +1,19 @@
+{
+    "env": "production",
+    "cdn": {
+        "env": "production"
+    },
+    "winston": {
+        "transports": {
+            "console": {
+                "silent": true
+            },
+            "file": {
+                "filename": "/dev/stdout",
+                "level": "error",
+                "colorize": false,
+                "json": false
+            }
+        }
+    }
+}
